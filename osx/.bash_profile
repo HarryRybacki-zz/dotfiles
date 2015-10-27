@@ -35,3 +35,9 @@ if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
 else
     echo "WARNING: Unable to locate virtualenvwrapper.sh -- Please check your .bash_profile"
 fi
+
+################
+## GH related ##
+################
+# two-factor requires the use of a pac in lieu of passwords
+export GH_ACCESS_TOKEN=<personal access token>
